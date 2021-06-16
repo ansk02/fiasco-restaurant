@@ -1,0 +1,146 @@
+{% load static %}
+
+{% include "base.html" %}
+
+<header class="header" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.92) , rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)),
+	url(' {% static  'img/salad-chicken.jpg' %} ') center center / cover no-repeat ;
+	color: #FFF;">
+		
+{% include "navbar.html" %}
+
+<div class="baseline ">
+	<span class="baseline-welcome  reveal-1">Recette</span> 
+	<strong class="baseline-name  reveal-2">NOS RECETTES</strong> 
+	<span class="baseline-slogan  reveal-3">specialitié guinéenne</span>
+</div>
+</header>
+
+<!-- LA SECTION RECETTE1 -->
+	<section class="section-overflow">
+
+		<div class="container-small reveal">
+
+			<!-- BLOC GAUCHE -->
+			<div class="block block-left ">
+				
+				<div class="block-ingredients">
+					
+					<ul>
+						
+					
+					<li><span>1</span> Poulet de Bresse </li>
+					<li><span>1/2</span>Cuillère à soupe de beurre </li>
+					<li><span>2</span> Branches de thym </li>
+					<li><span>1</span> Gousse de l'ails en poudre </li>
+					<li><span>2</span> Citrons frais </li>
+					<li><span>1L</span> Huile de pépins de raisin </li>
+					<li><span>1</span> Sel & piment noir  </li>
+
+					</ul>
+
+				</div>
+
+				<div class="block-body">
+					<h2 class="title reveal-2"> <span>Ingrédients</span> Préparation</h2>
+
+					<p class="title-paragraph reveal-3">Préparez le poulet : bridez la volaille (ou demandez à votre boucher), salez légèrement votre poulet à l’intérieur, faites-le blanchir (dans l’eau bouillante) pendant quelques secondes, ressortez-le et faites-le séchez. 
+Une fois sec, placez-le dans une cocotte avec l’huile de pépins de raisin, l’ail, le laurier et le thym pour l’aromatiser. Marquez d’abord les cuisses pour avoir une couleur uniforme. Repositionnez ensuite votre volaille sur le dos. Enfournez votre poulet pour 1 h 10 de cuisson. </p>
+
+
+				</div>
+			</div>
+		
+
+			<!-- BLOC DROIT -->
+			<div class="block block-right ">
+				<div class="block-video reveal-1">
+					<img src="{% static 'img/tutorial.jpg' %}" alt="tutoriel">
+				</div>
+
+				<div class="block-body">
+					<h2 class="title reveal-2"> <span>Tutoriel</span> Vidéo</h2>
+					
+					<p class="title-paragraph reveal-3">Veuillez suivre de prêt la cuisson à travers cette vidéo!</p>
+				 
+				</div>
+			</div>	
+
+			<!-- bloc centré -->
+			<div class="block block-centered block-last">
+
+				<div class="block-body">
+					
+					<h2 class="title"> <span>Menu</span> certifié bio</h2>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est enim quaerat, illum. Laboriosam veritatis asperiores rem perferendis harum fuga ratione ipsam totam, natus fugit illo omnis expedita quo in odit itaque magnam est distinctio saepe consectetur suscipit ducimus maxime! Nobis fugiat voluptates dolorem totam voluptatem. Repudiandae quis tempore ut omnis!</p>
+
+				    <a href="#" class="more">voir plus</a>
+				    
+
+				</div>
+			</div>
+
+
+			<div class="container">
+				
+			
+				<div class="recipes-mosaic">
+					<div class="menu-summary-item">
+						<!-- <a href="" class="menu-summary-image">
+							
+						</a> -->
+						<img src="{% static 'img/crusted-chicken-square.jpg' %}" alt="chicken" class="menu-summary-image reveal-1">
+						<h3 class="menu-summary-title reveal-2">Amazing Crusted Chicken</h3>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere eius delectus enim debitis reiciendis.</p>
+
+						<div class="more reveal-3"><a href="#">voir plus</a></div>
+
+					</div>
+
+					<div class="menu-summary-item">
+						<!-- <a href="" class="menu-summary-image">
+							
+						</a> -->
+						<img src="{% static 'img/crusted-chicken-square.jpg' %}" alt="chicken" class="menu-summary-image reveal-1">
+						<h3 class="menu-summary-title reveal-2">Bobun Light Old</h3>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere eius delectus enim debitis reiciendis.</p>
+
+						<div class="more reveal-3"><a href="#">voir plus</a></div>
+
+					</div>
+
+					<div class="menu-summary-item">
+						<!-- <a href="" class="menu-summary-image">
+							
+						</a> -->
+						<img src="{% static 'img/bobun-light-square.jpg' %}" alt="chicken" class="menu-summary-image reveal-1">
+						<h3 class="menu-summary-title reveal-2">Spice Egg Paella</h3>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere eius delectus enim debitis reiciendis.</p>
+
+						<div class="more reveal-3"><a href="#">voir plus</a></div>
+
+					</div>
+
+					<div class="menu-summary-item">
+
+						<img src="{% static 'img/poisson-square.jpg' %}" alt="chicken" class="menu-summary-image reveal-1
+						">
+						<h3 class="menu-summary-title reveal-2">Amazing Crusted Chicken</h3>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere eius delectus enim debitis reiciendis.</p>
+
+						<div class="more reveal-3"><a href="#">voir plus</a></div>
+
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>	
+	</section>
+
+
+
+
+
+{% include "footer.html" %}

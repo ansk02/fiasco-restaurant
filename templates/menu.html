@@ -1,0 +1,151 @@
+{% load static %}
+{% include "base.html" %}
+
+<header class="header" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.92) , rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)),
+	url(' {% static  'img/menu.jpg' %} ') center center / cover no-repeat ;
+	color: #FFF;">
+		
+{% include "navbar.html" %}
+
+<div class="baseline ">
+	<span class="baseline-welcome  reveal-1">Menu</span> 
+	<strong class="baseline-name  reveal-2">DECOUVRIR NOS MENUS</strong> 
+	<span class="baseline-slogan  reveal-3">specialitié guinéenne</span>
+</div>
+</header>
+
+
+	<!-- MA SECTION -->
+	<section class="home-section">
+
+		<div class="container-small reveal">
+
+			<!-- BLOC GAUCHE -->
+			<div class="block block-left ">
+				<div class="block-img reveal-1">
+					<img src="{% static 'img/burger.jpg' %}" alt="burger">
+				</div>
+
+				<div class="block-body">
+					<h2 class="title reveal-2"> <span>Decouvrez</span> notre gastronomie</h2>
+
+					<p class="title-paragraph reveal-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est enim quaerat, illum. Laboriosam veritatis asperiores rem perferendis harum fuga ratione ipsam totam, natus fugit illo omnis expedita quo in odit itaque magnam est distinctio saepe consectetur suscipit ducimus maxime! Nobis fugiat voluptates dolorem totam voluptatem. Repudiandae quis tempore ut omnis!</p>
+
+				    <a href="#" class="more reveal-4">voir plus</a>
+
+				</div>
+			</div>
+		
+
+			<!-- BLOC DROIT -->
+			<div class="block block-right ">
+				<div class="block-img reveal-1">
+					<img src="{% static 'img/crusted-chicken.jpg' %}" alt="chicken">
+				</div>
+
+				<div class="block-body">
+					<h2 class="title reveal-2"> <span>Decouvrez</span> notre gastronomie</h2>
+					
+					<p class="title-paragraph reveal-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est enim quaerat, illum. Laboriosam veritatis asperiores rem perferendis harum fuga ratione ipsam totam, natus fugit illo omnis expedita quo in odit itaque magnam est distinctio saepe consectetur suscipit ducimus maxime! Nobis fugiat voluptates dolorem totam voluptatem. Repudiandae quis tempore ut omnis!</p>
+
+				    <a href="#" class="more reveal-4">voir plus</a>
+				 
+				</div>
+			</div>	
+
+			<!-- bloc centré -->
+			<div class="block block-centered block-last">
+
+				<div class="block-body">
+					
+					<h2 class="title"> <span>Menu</span> certifié bio</h2>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est enim quaerat, illum. Laboriosam veritatis asperiores rem perferendis harum fuga ratione ipsam totam, natus fugit illo omnis expedita quo in odit itaque magnam est distinctio saepe consectetur suscipit ducimus maxime! Nobis fugiat voluptates dolorem totam voluptatem. Repudiandae quis tempore ut omnis!</p>
+
+				    <a href="#" class="more">voir plus</a>
+				    
+
+				</div>
+			</div>
+
+			<!-- LES CATEGORIES -->
+			<nav class="ingredients-menu">
+				<a href="#" class="active">œufs</a>
+				<a href="#" class="">porcs</a>
+				<a href="#" class="">poulets</a>
+				<a href="#" class="">poisson</a>
+				<a href="#" class="">vegetal</a>
+			</nav>
+
+			<div class="container">
+				
+			
+				<div class="menu-summary">
+					<div class="menu-summary-item">
+						<!-- <a href="" class="menu-summary-image">
+							
+						</a> -->
+						<img src="{% static 'img/crusted-chicken-square.jpg' %}" alt="chicken" class="menu-summary-image reveal-1">
+						<h3 class="menu-summary-title reveal-2">Amazing Crusted Chicken</h3>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere eius delectus enim debitis reiciendis.</p>
+
+						<div class="menu-summary-price reveal-3">gnf 20</div>
+
+					</div>
+
+					<div class="menu-summary-item">
+						<!-- <a href="" class="menu-summary-image">
+							
+						</a> -->
+						<img src="{% static 'img/crusted-chicken-square.jpg' %}" alt="chicken" class="menu-summary-image reveal-1">
+						<h3 class="menu-summary-title reveal-2">Bobun Light Old</h3>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere eius delectus enim debitis reiciendis.</p>
+
+						<div class="menu-summary-price reveal-3">gnf 20</div>
+
+					</div>
+
+					<div class="menu-summary-item">
+						<!-- <a href="" class="menu-summary-image">
+							
+						</a> -->
+						<img src="{% static 'img/bobun-light-square.jpg' %}" alt="chicken" class="menu-summary-image reveal-1">
+						<h3 class="menu-summary-title reveal-2">Spice Egg Paella</h3>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere eius delectus enim debitis reiciendis.</p>
+
+						<div class="menu-summary-price reveal-3">gnf 20</div>
+
+					</div>
+
+					<div class="menu-summary-item">
+
+						<img src="{% static 'img/poisson-square.jpg' %}" alt="chicken" class="menu-summary-image reveal-1
+						">
+						<h3 class="menu-summary-title reveal-2">Amazing Crusted Chicken</h3>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere eius delectus enim debitis reiciendis.</p>
+
+						<div class="menu-summary-price reveal-3">gnf 250 000</div>
+
+					</div>
+
+				</div>
+
+				{% include "reservation.html" %}
+				<!-- Bloc dedié aux mots du chef -->
+				<div class="block block-chief">
+	<!-- 				<div class="blog-image">
+						<img src="#" alt="le chef">
+					</div> -->
+					<div class="block-body">
+			<h2 class="title reveal-1"><span>Mots du chef</span></h2>
+						<p class="reveal-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero?</p>
+						<p class="reveal-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero?</p>
+					</div>
+				</div>
+
+			</div>
+		</div>	
+	</section>
+
+
+{% include "footer.html" %}
